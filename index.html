@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art of Wish</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter:wght@300&display=swap');
+
+        body {
+            background-color: #121212; 
+            color: #e0e0e0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            overflow: hidden; 
+        }
+
+        .container {
+
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 2s ease-out 0.5s forwards;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-weight: 500;
+            font-size: 2.5rem; 
+            letter-spacing: 8px; 
+            text-transform: uppercase;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+            font-size: 0.85rem;
+            letter-spacing: 5px; 
+            text-transform: uppercase;
+            opacity: 0.8;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 4rem;
+                letter-spacing: 12px;
+            }
+            p {
+                font-size: 1rem;
+                letter-spacing: 7px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Art of Wish</h1>
+        <p>The website is under construction );</p>
+    </div>
+</body>
+</html>
